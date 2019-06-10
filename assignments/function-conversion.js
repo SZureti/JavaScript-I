@@ -8,23 +8,19 @@
 // var myFunction = phrase => phrase
 // myFunction("Function was invoked");
 
-var myFunction = phrase => "Function was invoked";
+var myFunction = () => "Function was invoked";
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
 
-var anotherFunction = example => (param);
+var anotherFunction = param => param;
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
-
-function add(param1, param2) {
-    return param1 + param2;
-}
 
 var add = (param1, param2) => (param1 + param2);
 
